@@ -3,7 +3,7 @@ package model;
 public class Comissao {
 
     public Double calcular(Double valorVenda){
-        return 0.0;
+        return valorVenda < 1000 ? valorVenda * 0.1 : valorVenda * 0.15;
     }
 
 }
