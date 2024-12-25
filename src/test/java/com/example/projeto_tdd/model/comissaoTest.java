@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Bean;
 import model.Comissao;
 
 @SpringBootTest
-public class comissaoTest {
+public class ComissaoTest {
 
     @TestConfiguration
     static class ComissaoConfiguracao {
