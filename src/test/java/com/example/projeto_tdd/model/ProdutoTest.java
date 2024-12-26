@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import model.Produto;
+import com.example.projeto_tdd.model.Produto;
 
 @SpringBootTest
 public class ProdutoTest {

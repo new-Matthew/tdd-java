@@ -1,4 +1,4 @@
-package model;
+package com.example.projeto_tdd.model;
 
 public class Comissao {
 

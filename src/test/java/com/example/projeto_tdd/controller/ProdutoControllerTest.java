@@ -7,7 +7,6 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
-import controller.ProdutoController;
 
 @WebMvcTest(controllers = ProdutoController.class)
 public class ProdutoControllerTest {

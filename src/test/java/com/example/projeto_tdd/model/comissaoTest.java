@@ -7,7 +7,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.context.TestConfiguration;
 import org.springframework.context.annotation.Bean;
 
-import model.Comissao;
+import com.example.projeto_tdd.model.Comissao;
 
 @SpringBootTest
 public class ComissaoTest {
