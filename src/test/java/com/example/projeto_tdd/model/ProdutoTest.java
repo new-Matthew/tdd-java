@@ -1,5 +1,4 @@
 package com.example.projeto_tdd.model;
-//import org.assertj.core.api.Assertions; testar esse, nao tem o assertEquals, ver outro
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -23,9 +22,10 @@ public class ProdutoTest {
         // Act:
 
         Double resultado = produto.calcularValorTotal();
-
+        
         // Assert:
 
         Assertions.assertEquals(resultadoEsperado, resultado);
     }
 }
+
